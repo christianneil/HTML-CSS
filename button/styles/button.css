@@ -1,0 +1,208 @@
+.subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: opacity 0.15s;
+}
+.subscribe-button:hover{
+    opacity: 0.8;
+}
+.subscribe-button:active{
+    opacity: 0.5;
+}
+
+.join-button{
+    background-color: white;
+    border-color: rgb(41, 157, 202);
+    border-style: solid;
+    border-width: 2px;
+    color:rgb(41, 157, 202);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:12px ;
+    padding-right: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition:background-color 0.15s,color 0.15s;
+}
+.join-button:hover{
+    background-color:rgb(41, 157, 202) ;
+    color: white;
+}
+.join-button:active{
+    opacity: 0.4;
+}
+.tweet-button{
+    color: white;
+    background-color: rgb(51, 152, 192);
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 32.5px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: box-shadow 0.15s;
+    
+}
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+.tweet-button:active{
+    opacity: 0.5;
+}
+.request-now-button{
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    margin-right:10px;
+    transition: opacity 0.15s;
+}
+.request-now-button:hover{
+    opacity: 0.9;
+}
+.request-now-button:active{
+    opacity: 0.7;
+}
+
+
+.add-to-cart-button{
+    color: black;
+    background-color: rgb(255,216,20);
+    margin-top: 15px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 65px; 
+    cursor: pointer;
+    transition: background-color 0.15s,opacity 0.15s;
+}
+.add-to-cart-button:hover{
+   background-color: rgb(243, 203, 2);
+}
+.add-to-cart-button:active{
+    opacity:0.9;
+}
+
+.sign-up-github-button{
+    background-color:rgb(46,164,79);
+    border: none;
+    color: white;
+    font-size: smaller;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    margin-right:30px;
+    margin-left:12px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.sign-up-github-button:hover{
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.sign-up-github-button:active{
+   opacity: 0.9;
+}
+.get-started{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right: 12px;
+    padding-left:12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+.get-started:hover{
+   background-color: rgb(111, 67, 177);
+}
+.get-started:active{
+    opacity: 0.9;
+}
+.Download{
+    color: rgb(121,117,125);
+    padding-top: 4px;
+    padding-bottom:  4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-color:rgb(121,117,125); 
+    border-style: solid; 
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1px;
+    transition: background-color 0.15s , color 0.15s ;
+}
+.Download:hover{
+    background-color:rgb(121,117,125) ;
+    color: white;
+}
+.Download:active{
+    opacity: 0.9;
+}
+.apply-on-company-website{
+    margin-top: 20px;
+    background-color: rgb(10,102,194);
+    color: white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius:80px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+}
+.apply-on-company-website:hover{
+    background-color:rgb(11, 90, 168)
+}
+.apply-on-company-website:active{
+    opacity: 0.9;
+}
+.Save{
+    color:rgb(10,102,194) ;
+    border-color: rgb(10,102,194);
+    border-width: 1px;
+    border-radius: 40px;
+    padding-top:  3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: border-width 0.15s,box-shadow 0.15s;
+}
+.Save:hover{
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: inset 0px 0px 20px 10px rgb(10,102,194,0.15);
+
+}
+.Save:active{
+    opacity: 0.6;
+}
